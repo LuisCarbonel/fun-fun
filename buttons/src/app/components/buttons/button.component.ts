@@ -6,5 +6,8 @@ import {Component} from "@angular/core";
   styleUrls: ['./button.component.scss']
 })
 export class ButtonComponent {
-  title = 'Click Below';
+  public instruction = 'Hello there... Click down below';
+
+  constructor() {}
+
 }
