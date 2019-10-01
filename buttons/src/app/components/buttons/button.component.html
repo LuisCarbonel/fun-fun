@@ -1,3 +1,10 @@
 <h1>
   {{instruction}}
 </h1>
+<div>
+  <button (click)="onClick()">Click Me</button>
+  {{whatname}}
+</div>
+
+<input [(ngModel)]="name" type="text"/>
+{{name}}

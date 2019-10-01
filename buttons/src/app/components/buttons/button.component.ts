@@ -7,7 +7,14 @@ import {Component} from "@angular/core";
 })
 export class ButtonComponent {
   public instruction = 'Hello there... Click down below';
+  public whatname = '';
+  public name = '';
 
   constructor() {}
+
+  onClick() {
+    console.log('Clicked');
+    this.whatname = 'what is your name?';
+  }
 
 }
